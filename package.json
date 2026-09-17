@@ -1,0 +1,15 @@
+{
+  "name": "complyscan-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:web": "npm --prefix apps/web test",
+    "typecheck:web": "npm --prefix apps/web run typecheck",
+    "lint:web": "npm --prefix apps/web run lint",
+    "build:web": "npm --prefix apps/web run build",
+    "check:web": "npm run test:web && npm run typecheck:web && npm run lint:web && npm run build:web"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
