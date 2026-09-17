@@ -1,0 +1,23 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# JavaScript
+node_modules/
+.next/
+*.tsbuildinfo
+.npm-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.uv-cache/
+.venv/
+
+# local runtime
+.tmp/
+.vercel/
+.DS_Store
+Thumbs.db
